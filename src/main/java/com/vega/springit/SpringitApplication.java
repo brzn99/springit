@@ -16,6 +16,7 @@ import org.springframework.context.annotation.Profile;
 @SpringBootApplication
 @EnableConfigurationProperties(SpringitProperties.class)
 @ConfigurationPropertiesScan("com.vega.springit.config")
+
 public class SpringitApplication
 {
 
