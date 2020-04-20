@@ -16,7 +16,7 @@ public class Vote extends Auditable{
     @GeneratedValue
     private Long id;
     //private User user;
-    private Link link;
+    //private Link link;
     private int vote;
 
 
