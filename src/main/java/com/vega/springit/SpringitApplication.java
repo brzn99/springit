@@ -36,6 +36,7 @@ public class SpringitApplication
     {
         return args ->
         {
+
             log.info("Welcome Message="+springitProperties.getWelcomeMsg());
             String[] beans=applicationContext.getBeanDefinitionNames();
             //Arrays.stream(beans).forEach(bean -> System.out.println(bean));
