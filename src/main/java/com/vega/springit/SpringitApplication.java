@@ -42,7 +42,7 @@ public class SpringitApplication
     {
         return args ->
         {
-            Link link = new Link("Getting started with SpringBoot 2", "hhtps://thereaddanvega/spring-boot-2");
+            Link link = new Link("Getting started with SpringBoot 2", "https://thereaddanvega/spring-boot-2");
             linkRepository.save(link);
 
             Comment comment = new Comment("This Spring Boot 2 link is awesome!", link);
